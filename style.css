@@ -1,0 +1,79 @@
+h1{
+  color: blue;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 112px;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
+a{
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: blue;
+  position: relative;
+  left: 700px;
+}
+#title{
+  padding: 150px;
+  }
+img {
+  height: 1000px;
+  width: 1000px;
+  padding: 125px;
+  border-radius: 1000px;
+  position: relative;
+  left: 150px;
+}
+body {
+  width: 2000px;
+  height: 1500px;
+  margin: 0 auto;
+  background: repeating-radial-gradient(aquamarine, aqua, cornflowerblue)
+}
+.left{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  position: relative;
+  -webkit-animation-name: left;
+  -webkit-animation-duration: 10s;
+  animation-name: left;
+  -webkit-animation-iteration-count: 30;
+  animation-duration: 10s;
+}
+@-webkit-keyframes left {
+  from {left: 1500px;}
+  to {left: -500px;}
+}
+@keyframes left {
+  from {left: 1500px;}
+  to {left: -500px;}
+}
+.right{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  position: relative;
+  -webkit-animation-name: right;
+  -webkit-animation-duration: 10s;
+  animation-name: right;
+  -webkit-animation-iteration-count: 30;
+  animation-duration: 10s;
+}
+@-webkit-keyframes right {
+  from {left: -500px;}
+  to {left: 1500px;}
+}
+@keyframes right {
+  from {left: -500px;}
+  to {left: 1500px;}
+}
+#text{
+  color: black;
+  font-size: 30;
+  font-family: monospace;
+  position: relative;
+  left: 700px;
+  bottom: 100px;
+}
